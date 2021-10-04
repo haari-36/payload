@@ -33,7 +33,7 @@ payload.Colleges.Branchdetails.Branch]]></ee:set-payload>
 				</ee:transform>
 				<logger level="INFO" doc:name="Logger" doc:id="dd1008ac-9b69-4a1b-a746-57e96e28618c" message="#[payload.retVar]"/>
 			</when>
-			<when expression="#[vars.retVar=='Vignan']">
+			<when expression="#[vars.retVar=='KLU']">
 				<ee:transform doc:name="Transform Message" doc:id="42ddd4ce-8829-42e2-a160-61a530d379a6" >
 					<ee:message >
 						<ee:set-payload ><![CDATA[%dw 2.0
